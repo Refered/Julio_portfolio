@@ -13,6 +13,7 @@
 }
 
 .app {
+  position: relative;
   width: 100vw;
   height: 100vh;
 
@@ -33,6 +34,24 @@
     display: inline-flex;
     overflow: hidden;
 
+    .nav_open {
+      position: absolute;
+      z-index: 10;
+
+      margin: 2rem;
+      width: 3.2rem;
+      height: 3.2rem;
+
+      background-color: rgba(196, 118, 224, 0.2);
+      border-radius: 0.2rem;
+
+      display: none;
+    }
+
+    .nav_open:hover {
+      cursor: pointer;
+    }
+
     section {
       position: absolute;
 
@@ -52,6 +71,16 @@
       transform: translateX(100%);
       z-index: 0;
       transition: transform 0.6s ease-in-out;
+    }
+  }
+}
+
+@media only screen and (max-width: 55rem) {
+  .app {
+    .section_carrousel {
+      .nav_open {
+        display: block;
+      }
     }
   }
 }

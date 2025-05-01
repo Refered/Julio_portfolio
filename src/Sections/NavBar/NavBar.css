@@ -10,15 +10,34 @@ nav {
 
   background-color: var(--secondary_color);
 
+  .nav_close {
+    right: 0;
+    position: absolute;
+    z-index: 9999;
+
+    margin: 2rem;
+    width: 3.2rem;
+    height: 3.2rem;
+
+    background-color: rgba(196, 118, 224, 0.2);
+    border-radius: 0.2rem;
+
+    display: none;
+  }
+
+  .nav_close:hover {
+    cursor: pointer;
+  }
+
   .logo_container {
     padding-top: 5rem;
 
     font-size: 2rem;
+    font-weight: bold;
   }
 
   .nav_list {
     flex-grow: 1;
-    padding-bottom: 5rem;
 
     display: flex;
     flex-direction: column;
@@ -27,7 +46,7 @@ nav {
 
     .list_element {
       padding: 0rem 1rem;
-      padding-bottom: 1rem;
+      padding-bottom: 0.5rem;
 
       display: flex;
       align-items: center;
@@ -38,15 +57,49 @@ nav {
       svg {
         height: 2.5rem;
         width: auto;
+
+        path {
+          transition: 0.2s ease-in-out;
+        }
+      }
+
+      .unselected {
+        path {
+          stroke: var(--font_color);
+          transition: 0.2s ease-in-out;
+        }
       }
 
       p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
       }
     }
 
-    p:hover {
+    .list_element:hover {
       cursor: pointer;
     }
+  }
+}
+
+@media only screen and (max-width: 55rem) {
+  nav {
+    position: absolute;
+    width: 50vw;
+
+    z-index: 9999;
+
+    .nav_close {
+      display: block;
+    }
+  }
+
+  nav.active {
+    transform: translateX(0rem);
+    transition: transform 0.6s ease-in-out;
+  }
+
+  nav.inactive {
+    transform: translateX(-100%);
+    transition: transform 0.6s ease-in-out;
   }
 }
