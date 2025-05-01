@@ -1,13 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Libre%20Baskerville:700|Libre%20Baskerville:400");
+
+:root {
+  --primary_color: #c476e0;
+  --secondary_color: #5e5062;
+  --accent_color: #6be1ae;
+  --font_color: #ffffff;
+  --background_color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .app {
-  height: 100vh;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
 
-  font-size: 10rem;
-  font-family: "Poppins";
+  display: flex;
+
+  font-family: "Libre Baskerville";
   font-style: normal;
+
+  .section_carrousel {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    display: inline-flex;
+    overflow: hidden;
+
+    section {
+      position: absolute;
+
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 5rem;
+      color: white;
+    }
+
+    section.active {
+      transform: translateX(0rem);
+      z-index: 1;
+      transition: transform 0.6s ease-in-out;
+    }
+
+    section.inactive {
+      transform: translateX(100%);
+      z-index: 0;
+      transition: transform 0.6s ease-in-out;
+    }
+  }
 }
