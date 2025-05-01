@@ -6,12 +6,16 @@ import { ReactComponent as AboutIcon } from "../../Icons/UserCircle.svg";
 import { ReactComponent as SkillsIcon } from "../../Icons/LineSegments.svg";
 import { ReactComponent as PortfolioIcon } from "../../Icons/Briefcase.svg";
 import { ReactComponent as ContactIcon } from "../../Icons/ChatsCircle.svg";
-import { ReactComponent as NavClose } from "../../Icons/NavClose.svg";
+// import { ReactComponent as NavClose } from "../../Icons/NavClose.svg";
 
-const NavBar = ({ currentSection, setCurrentSection, navOpen, setNavOpen }) => {
+const NavBar = ({ currentSection, setCurrentSection, navOpen }) => {
   return (
     <nav className={navOpen ? "active" : "inactive"}>
-      <div className="logo_container">Julio Portfolio</div>
+      <div className="logo_container">
+        <p>
+          <span>Julio</span> Portfolio
+        </p>
+      </div>
       <div className="nav_list">
         <div className="list_element" onClick={() => setCurrentSection(0)}>
           <HomeIcon

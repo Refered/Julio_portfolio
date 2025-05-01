@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+span {
+  color: var(--primary_color);
+}
+
 .app {
   position: relative;
   width: 100vw;
@@ -32,7 +36,7 @@
     height: 100%;
 
     display: inline-flex;
-    overflow: hidden;
+    overflow-x: hidden;
 
     .nav_open {
       position: absolute;

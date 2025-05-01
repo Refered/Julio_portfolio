@@ -20,7 +20,6 @@ function App() {
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
         navOpen={navOpen}
-        setNavOpen={setNavOpen}
       />
       <div
         className="section_carrousel"
