@@ -1,6 +1,6 @@
 .home_container {
-  min-height: calc(100vh - (clamp(4rem, 5vw, 10rem) * 2));
   margin: clamp(4rem, 5vw, 10rem);
+  min-height: calc(100vh - (clamp(4rem, 5vw, 10rem) * 2));
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;

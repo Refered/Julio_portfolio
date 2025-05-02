@@ -17,41 +17,61 @@ const NavBar = ({ currentSection, setCurrentSection, navOpen }) => {
         </p>
       </div>
       <div className="nav_list">
-        <div className="list_element" onClick={() => setCurrentSection(0)}>
+        <a
+          href="#top"
+          className="list_element"
+          onClick={() => setCurrentSection(0)}
+        >
           <HomeIcon
             viewBox="0 0 32 32"
             className={currentSection === 0 ? "" : "unselected"}
           />
           <p>Home</p>
-        </div>
-        <div className="list_element" onClick={() => setCurrentSection(1)}>
+        </a>
+        <a
+          href="#top"
+          className="list_element"
+          onClick={() => setCurrentSection(1)}
+        >
           <AboutIcon
             viewBox="0 0 32 32"
             className={currentSection === 1 ? "" : "unselected"}
           />
           <p>About</p>
-        </div>
-        <div className="list_element" onClick={() => setCurrentSection(2)}>
+        </a>
+        <a
+          href="#top"
+          className="list_element"
+          onClick={() => setCurrentSection(2)}
+        >
           <SkillsIcon
             viewBox="0 0 32 32"
             className={currentSection === 2 ? "" : "unselected"}
           />
           <p>Skills</p>
-        </div>
-        <div className="list_element" onClick={() => setCurrentSection(3)}>
+        </a>
+        <a
+          href="#top"
+          className="list_element"
+          onClick={() => setCurrentSection(3)}
+        >
           <PortfolioIcon
             viewBox="0 0 32 32"
             className={currentSection === 3 ? "" : "unselected"}
           />
           <p>Portfolio</p>
-        </div>
-        <div className="list_element" onClick={() => setCurrentSection(4)}>
+        </a>
+        <a
+          href="#top"
+          className="list_element"
+          onClick={() => setCurrentSection(4)}
+        >
           <ContactIcon
             viewBox="0 0 32 32"
             className={currentSection === 4 ? "" : "unselected"}
           />
           <p>Contact</p>
-        </div>
+        </a>
       </div>
     </nav>
   );

@@ -38,6 +38,8 @@ span {
     display: inline-flex;
     overflow-x: hidden;
 
+    scroll-behavior: smooth;
+
     .nav_open {
       position: absolute;
       z-index: 10;

@@ -35,12 +35,6 @@ const CardPortfolioList = () => {
       card_text: "",
       id: "card5",
     },
-    {
-      card_title: "",
-      card_image: "",
-      card_text: "",
-      id: "card6",
-    },
   ];
 
   return cards.map(({ id, ...cardsprops }) => (

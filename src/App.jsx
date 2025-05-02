@@ -29,6 +29,7 @@ function App() {
           }
         }}
       >
+        <span id="top" />
         <div className="nav_open" onClick={() => setNavOpen(true)}>
           <NavOpen />
         </div>
