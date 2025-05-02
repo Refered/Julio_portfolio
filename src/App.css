@@ -63,6 +63,38 @@ span {
       min-height: 100%;
 
       background-color: var(--background_color);
+
+      .title_container {
+        position: relative;
+
+        h2 {
+          font-size: clamp(2.2rem, calc(2.2vw + 1rem), 4rem);
+        }
+
+        h2::before {
+          position: absolute;
+          display: block;
+          content: "";
+
+          bottom: 0;
+          width: 2ch;
+          height: 0.4rem;
+          border-radius: 2rem;
+          background-color: var(--primary_color);
+        }
+
+        h2::after {
+          position: absolute;
+          display: block;
+          content: "";
+
+          bottom: -1rem;
+          width: 1ch;
+          height: 0.4rem;
+          border-radius: 2rem;
+          background-color: var(--primary_color);
+        }
+      }
     }
 
     section.active {
@@ -86,6 +118,24 @@ span {
     .section_carrousel {
       .nav_open {
         display: block;
+      }
+
+      section {
+        .title_container {
+          h2 {
+            text-align: center;
+          }
+
+          h2::before {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          h2::after {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
       }
     }
   }

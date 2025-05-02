@@ -3,6 +3,8 @@ import "./Home.css";
 
 import Button from "../../Components/Button/Button.jsx";
 
+import test from "../../Images/test.png";
+
 const Home = ({ sectionState }) => {
   return (
     <section className={`${sectionState}`}>
@@ -22,7 +24,9 @@ const Home = ({ sectionState }) => {
           </div>
         </div>
         <div className="side_b">
-          <div className="image_container"></div>
+          <div className="img_container">
+            <img src={test} alt="homeImage" />
+          </div>
         </div>
       </div>
     </section>

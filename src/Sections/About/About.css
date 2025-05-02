@@ -1,2 +1,13 @@
 .about_container {
+  margin: clamp(4rem, 5vw, 10rem);
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+@media only screen and (max-width: 55rem) {
+  .about_container {
+    align-items: center;
+  }
 }

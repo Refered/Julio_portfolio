@@ -10,7 +10,7 @@ const Skills = ({ sectionState }) => {
         <div className="title_container">
           <h2>Skills</h2>
         </div>
-        <div className="side_b">
+        <div className="card_list_container">
           <CardSkillList />
         </div>
       </div>
