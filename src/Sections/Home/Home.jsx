@@ -12,9 +12,10 @@ const Home = ({ sectionState }) => {
             Hello, my name is <span>Julio Tonatiuh Aguilera Ordoñez</span>
           </h1>
           <p>
-            I'm a Game Developer with extensive experience for over 2 years. My
-            expertise is related to Game Development, Game Design, Software
-            Development and many more...
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum
+            dolor sit amet, consectetur adipiscing elit. dolor sit amet,
+            consectetur adipiscing elit.
           </p>
           <div className="button_container">
             <Button text="See my CV" onclick={null} />
