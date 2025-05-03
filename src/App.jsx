@@ -34,7 +34,10 @@ function App() {
           <NavOpen />
         </div>
         <Home sectionState={currentSection === 0 ? "active" : "inactive"} />
-        <About sectionState={currentSection === 1 ? "active" : "inactive"} />
+        <About
+          sectionState={currentSection === 1 ? "active" : "inactive"}
+          setCurrentSection={setCurrentSection}
+        />
         <Skills sectionState={currentSection === 2 ? "active" : "inactive"} />
         <Portfolio
           sectionState={currentSection === 3 ? "active" : "inactive"}
