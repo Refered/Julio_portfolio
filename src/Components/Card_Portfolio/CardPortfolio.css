@@ -9,6 +9,10 @@
     font-size: 2.5rem;
   }
 
+  a {
+    all: unset;
+  }
+
   .card_body {
     width: 48rem;
     height: 36rem;

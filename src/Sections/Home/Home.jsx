@@ -11,7 +11,7 @@ const Home = ({ sectionState }) => {
       <div className="home_container">
         <div className="side_a">
           <h1>
-            Hello, my name is <span>Julio Tonatiuh Aguilera Ordoñez</span>
+            Hello, my name is <span>BLANK</span>
           </h1>
           <p>
             lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum
@@ -19,9 +19,9 @@ const Home = ({ sectionState }) => {
             dolor sit amet, consectetur adipiscing elit. dolor sit amet,
             consectetur adipiscing elit.
           </p>
-          <div className="button_container">
+          <a className="button_container" href="" target="blank">
             <Button text="See my CV" onclick={null} />
-          </div>
+          </a>
         </div>
         <div className="side_b">
           <div className="img_container">

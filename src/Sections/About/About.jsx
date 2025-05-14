@@ -16,8 +16,7 @@ const About = ({ sectionState, setCurrentSection }) => {
         <div className="side_a">
           <div className="text_container">
             <h3>
-              I'm Julio Tonatiuh Aguilera Ordoñez a{" "}
-              <span>Junior Technical Game Designer</span>
+              I'm BLANK a <span>Lorem ipsum dolor adipisicing elit.</span>
             </h3>
             <p>
               lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem

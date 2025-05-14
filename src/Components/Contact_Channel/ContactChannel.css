@@ -4,6 +4,10 @@
   align-items: center;
   gap: 2rem;
 
+  a {
+    all: unset;
+  }
+
   .icon_container {
     justify-self: center;
 
@@ -17,6 +21,10 @@
     border: solid 0.01rem var(--primary_color);
     border-radius: 2rem;
     background-color: rgba(196, 118, 224, 0.2);
+  }
+
+  .icon_container:hover {
+    cursor: pointer;
   }
 
   p {

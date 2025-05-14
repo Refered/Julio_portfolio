@@ -13,7 +13,7 @@ const NavBar = ({ currentSection, setCurrentSection, navOpen }) => {
     <nav className={navOpen ? "active" : "inactive"}>
       <div className="logo_container">
         <p>
-          <span>Julio</span> Portfolio
+          <span>BLANK</span> Portfolio
         </p>
       </div>
       <div className="nav_list">
