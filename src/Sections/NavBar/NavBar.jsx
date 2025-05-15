@@ -1,6 +1,8 @@
 import React from "react";
 import "./NavBar.css";
 
+import data from "../../Data.json";
+
 import { ReactComponent as HomeIcon } from "../../Icons/Home.svg";
 import { ReactComponent as AboutIcon } from "../../Icons/UserCircle.svg";
 import { ReactComponent as SkillsIcon } from "../../Icons/LineSegments.svg";
@@ -9,11 +11,12 @@ import { ReactComponent as ContactIcon } from "../../Icons/ChatsCircle.svg";
 // import { ReactComponent as NavClose } from "../../Icons/NavClose.svg";
 
 const NavBar = ({ currentSection, setCurrentSection, navOpen }) => {
+  const navData = data.portfolio_owner;
   return (
     <nav className={navOpen ? "active" : "inactive"}>
       <div className="logo_container">
         <p>
-          <span>BLANK</span> Portfolio
+          <span>{navData}</span> Portfolio
         </p>
       </div>
       <div className="nav_list">
