@@ -1,15 +1,15 @@
 {
   "home_section": {
     "greet": "Hello, my name is",
-    "name": "BLANK",
+    "name": "Julio Tonatiuh Aguilera Ordoñez",
     "introduction": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.",
-    "cv_link": "",
-    "photo": "test.png"
+    "cv_link": "https://drive.google.com/file/d/1jn62u_omO7ZWiiq3TiixaWD_hzipZuRI/view?usp=sharing",
+    "photo": "pfp.j"
   },
 
   "about_section": {
-    "presentation": "I'm BLANK a",
-    "job_title": "Lorem ipsum dolor adipisicing elit.",
+    "presentation": "I'm Julio a ",
+    "job_title": "Game Designer",
     "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.",
 
     "cards_info": {
