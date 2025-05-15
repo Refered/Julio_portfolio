@@ -1,30 +1,17 @@
 import React from "react";
 import ContactChannel from "./ContactChannel.jsx";
+import data from "../../Data.json";
 
 const ContactChannelList = () => {
-  const cards = [
-    {
-      card_icon: "icon",
-      card_text: "lorem ipsum dolor sit amet.",
-      card_link: "",
-      id: "card1",
-    },
-    {
-      card_icon: "icon",
-      card_text: "lorem ipsum dolor sit amet.",
-      card_link: "",
-      id: "card2",
-    },
-    {
-      card_icon: "icon",
-      card_text: "lorem ipsum dolor sit amet.",
-      card_link: "",
-      id: "card3",
-    },
-  ];
+  const cardsData = data.contact_section.cards;
 
-  return cards.map(({ id, ...cardsprops }) => (
-    <ContactChannel key={id} {...cardsprops} />
+  return Object.entries(cardsData).map(([key, card]) => (
+    <ContactChannel
+      key={key}
+      card_icon={card.card_icon}
+      card_text={card.card_text}
+      card_link={card.card_link}
+    />
   ));
 };
 

@@ -1,31 +1,31 @@
 import React from "react";
 import "./Home.css";
 
+import data from "../../Data.json";
 import Button from "../../Components/Button/Button.jsx";
 
-import test from "../../Images/test.png";
-
 const Home = ({ sectionState }) => {
+  const homeData = data.home_section;
+
   return (
     <section className={`${sectionState}`}>
       <div className="home_container">
         <div className="side_a">
           <h1>
-            Hello, my name is <span>BLANK</span>
+            {homeData.greet} <span>{homeData.name}</span>
           </h1>
-          <p>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. dolor sit amet,
-            consectetur adipiscing elit.
-          </p>
-          <a className="button_container" href="" target="blank">
-            <Button text="See my CV" onclick={null} />
+          <p>{homeData.introduction}</p>
+          <a
+            className="button_container"
+            href={homeData.cv_link}
+            target="blank"
+          >
+            <Button text="See my CV" />
           </a>
         </div>
         <div className="side_b">
           <div className="img_container">
-            <img src={test} alt="homeImage" />
+            <img src={`/Images/${homeData.photo}`} alt="homeImage" />
           </div>
         </div>
       </div>

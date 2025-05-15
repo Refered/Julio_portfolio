@@ -1,49 +1,18 @@
 import React from "react";
 import CardPortfolio from "./CardPortfolio.jsx";
-
-import test from "../../Images/test.png";
+import data from "../../Data.json";
 
 const CardPortfolioList = () => {
-  const cards = [
-    {
-      card_title: "title",
-      card_image: test,
-      card_text: "lorem ipsum dolor sit amet",
-      card_link: "",
-      id: "card1",
-    },
-    {
-      card_title: "title",
-      card_image: test,
-      card_text: "lorem ipsum dolor sit amet",
-      card_link: "",
-      id: "card2",
-    },
-    {
-      card_title: "title",
-      card_image: test,
-      card_text: "lorem ipsum dolor sit amet",
-      card_link: "",
-      id: "card3",
-    },
-    {
-      card_title: "title",
-      card_image: test,
-      card_text: "lorem ipsum dolor sit amet",
-      card_link: "",
-      id: "card4",
-    },
-    {
-      card_title: "title",
-      card_image: test,
-      card_text: "lorem ipsum dolor sit amet",
-      card_link: "",
-      id: "card5",
-    },
-  ];
+  const cardsData = data.portfolio_section.cards;
 
-  return cards.map(({ id, ...cardsprops }) => (
-    <CardPortfolio key={id} {...cardsprops} />
+  return Object.entries(cardsData).map(([key, card]) => (
+    <CardPortfolio
+      key={key}
+      card_title={card.card_title}
+      card_image={`/Images/${card.card_image}`}
+      card_text={card.card_text}
+      card_link={card.card_link}
+    />
   ));
 };
 

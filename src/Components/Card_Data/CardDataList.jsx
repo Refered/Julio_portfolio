@@ -1,42 +1,16 @@
 import React from "react";
 import CardData from "./CardData.jsx";
+import data from "../../Data.json";
 
 const CardDataList = () => {
-  const cards = [
-    {
-      card_title: "Birthday",
-      card_text: "??????????",
-      id: "card1",
-    },
-    {
-      card_title: "Mascots",
-      card_text: "??????????",
-      id: "card2",
-    },
-    {
-      card_title: "Favorite Video Game",
-      card_text: "??????????",
-      id: "card3",
-    },
-    {
-      card_title: "Email",
-      card_text: "??????????",
-      id: "card4",
-    },
-    {
-      card_title: "City",
-      card_text: "??????????",
-      id: "card5",
-    },
-    {
-      card_title: "Degree",
-      card_text: "??????????",
-      id: "card6",
-    },
-  ];
+  const cardsData = data.about_section.cards_info;
 
-  return cards.map(({ id, ...cardsprops }) => (
-    <CardData key={id} {...cardsprops} />
+  return Object.entries(cardsData).map(([key, card]) => (
+    <CardData
+      key={key}
+      card_title={card.card_title}
+      card_text={card.card_text}
+    />
   ));
 };
 

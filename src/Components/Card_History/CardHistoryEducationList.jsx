@@ -1,36 +1,17 @@
 import React from "react";
 import CardHistory from "./CardHistory.jsx";
+import data from "../../Data.json";
 
 const CardHistoryEducationList = () => {
-  const cards = [
-    {
-      card_date: "Date",
-      card_title: "Title",
-      card_text: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      id: "card1",
-    },
-    {
-      card_date: "Date",
-      card_title: "Title",
-      card_text: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      id: "card2",
-    },
-    {
-      card_date: "Date",
-      card_title: "Title",
-      card_text: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      id: "card3",
-    },
-    {
-      card_date: "Date",
-      card_title: "Title",
-      card_text: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      id: "card4",
-    },
-  ];
+  const cardsData = data.about_section.cards_education;
 
-  return cards.map(({ id, ...cardsprops }) => (
-    <CardHistory key={id} {...cardsprops} />
+  return Object.entries(cardsData).map(([key, card]) => (
+    <CardHistory
+      key={key}
+      card_date={card.card_date}
+      card_title={card.card_title}
+      card_text={card.card_text}
+    />
   ));
 };
 

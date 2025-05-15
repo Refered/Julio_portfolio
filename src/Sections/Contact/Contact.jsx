@@ -1,9 +1,12 @@
 import React from "react";
 import "./Contact.css";
 
+import data from "../../Data.json";
 import ContactChannelList from "../../Components/Contact_Channel/ContactChannelList.jsx";
 
 const Contact = ({ sectionState }) => {
+  const contactData = data.contact_section;
+
   return (
     <section className={`${sectionState}`}>
       <div className="contact_container">
@@ -12,8 +15,8 @@ const Contact = ({ sectionState }) => {
         </div>
         <div className="content_container">
           <div className="side_a">
-            <h3>Have You Any Questions ?</h3>
-            <p>Contact me</p>
+            <h3>{contactData.subtitle}</h3>
+            <p>{contactData.segway}</p>
           </div>
           <div className="side_b">
             <ContactChannelList />

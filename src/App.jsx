@@ -14,6 +14,17 @@ function App() {
   const [currentSection, setCurrentSection] = useState(0);
   const [navOpen, setNavOpen] = useState(false);
 
+  const sections = [
+    { component: Home, props: {} },
+    {
+      component: About,
+      props: { setCurrentSection },
+    },
+    { component: Skills, props: {} },
+    { component: Portfolio, props: {} },
+    { component: Contact, props: {} },
+  ];
+
   return (
     <div className="app">
       <NavBar
@@ -33,16 +44,16 @@ function App() {
         <div className="nav_open" onClick={() => setNavOpen(true)}>
           <NavOpen />
         </div>
-        <Home sectionState={currentSection === 0 ? "active" : "inactive"} />
-        <About
-          sectionState={currentSection === 1 ? "active" : "inactive"}
-          setCurrentSection={setCurrentSection}
-        />
-        <Skills sectionState={currentSection === 2 ? "active" : "inactive"} />
-        <Portfolio
-          sectionState={currentSection === 3 ? "active" : "inactive"}
-        />
-        <Contact sectionState={currentSection === 4 ? "active" : "inactive"} />
+        {sections.map((Section, index) => {
+          const SectionComponent = Section.component;
+          return (
+            <SectionComponent
+              key={`section_${index}`}
+              sectionState={currentSection === index ? "active" : "inactive"}
+              {...Section.props}
+            />
+          );
+        })}
       </div>
     </div>
   );

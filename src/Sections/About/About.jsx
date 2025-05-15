@@ -1,12 +1,15 @@
 import React from "react";
 import "./About.css";
 
+import data from "../../Data.json";
 import Button from "../../Components/Button/Button.jsx";
 import CardDataList from "../../Components/Card_Data/CardDataList.jsx";
 import CardHistoryEducationList from "../../Components/Card_History/CardHistoryEducationList.jsx";
 import CardHistoryExperienceList from "../../Components/Card_History/CardHistoryExperienceList.jsx";
 
 const About = ({ sectionState, setCurrentSection }) => {
+  const aboutData = data.about_section;
+
   return (
     <section className={`${sectionState}`}>
       <div className="about_container">
@@ -16,14 +19,9 @@ const About = ({ sectionState, setCurrentSection }) => {
         <div className="side_a">
           <div className="text_container">
             <h3>
-              I'm BLANK a <span>Lorem ipsum dolor adipisicing elit.</span>
+              {aboutData.presentation} <span>{aboutData.job_title}</span>
             </h3>
-            <p>
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem
-              ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit
-              amet, consectetur adipiscing elit.
-            </p>
+            <p>{aboutData.description}</p>
           </div>
           <div className="data_container">
             <CardDataList />

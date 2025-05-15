@@ -1,0 +1,180 @@
+{
+  "home_section": {
+    "greet": "Hello, my name is",
+    "name": "BLANK",
+    "introduction": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.",
+    "cv_link": "",
+    "photo": "test.png"
+  },
+
+  "about_section": {
+    "presentation": "I'm BLANK a",
+    "job_title": "Lorem ipsum dolor adipisicing elit.",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.",
+
+    "cards_info": {
+      "card_1": {
+        "card_title": "Birthday",
+        "card_text": "??????????"
+      },
+      "card_2": {
+        "card_title": "Mascots",
+        "card_text": "??????????"
+      },
+      "card_3": {
+        "card_title": "Favorite Video Game",
+        "card_text": "??????????"
+      },
+      "card_4": {
+        "card_title": "Email",
+        "card_text": "??????????"
+      },
+      "card_5": {
+        "card_title": "City",
+        "card_text": "??????????"
+      },
+      "card_6": {
+        "card_title": "Degree",
+        "card_text": "??????????"
+      }
+    },
+
+    "cards_education": {
+      "card_1": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_2": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_3": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_4": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    },
+
+    "cards_experience": {
+      "card_1": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_2": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_3": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    }
+  },
+
+  "skills_section": {
+    "cards": {
+      "card_1": {
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_2": {
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_3": {
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_4": {
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_5": {
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_6": {
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_7": {
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    }
+  },
+
+  "portfolio_section": {
+    "cards": {
+      "card_1": {
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
+      },
+      "card_2": {
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
+      },
+      "card_3": {
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
+      },
+      "card_4": {
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
+      },
+      "card_5": {
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
+      }
+    }
+  },
+
+  "contact_section": {
+    "subtitle": "Have You Any Questions?",
+    "segway": "Contact me",
+    "cards": {
+      "card_1": {
+        "card_icon": "Home",
+        "card_text": "lorem ipsum dolor sit amet.",
+        "card_link": ""
+      },
+      "card_2": {
+        "card_icon": "Home",
+        "card_text": "lorem ipsum dolor sit amet.",
+        "card_link": ""
+      },
+      "card_3": {
+        "card_icon": "Home",
+        "card_text": "lorem ipsum dolor sit amet.",
+        "card_link": ""
+      }
+    }
+  }
+}

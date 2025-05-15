@@ -21,6 +21,15 @@
     border: solid 0.01rem var(--primary_color);
     border-radius: 2rem;
     background-color: rgba(196, 118, 224, 0.2);
+
+    svg {
+      width: 3.2rem;
+      height: 3.2rem;
+
+      path {
+        stroke: var(--font_color);
+      }
+    }
   }
 
   .icon_container:hover {
