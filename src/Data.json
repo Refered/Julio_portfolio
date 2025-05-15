@@ -10,7 +10,7 @@
   "about_section": {
     "presentation": "I'm Julio a ",
     "job_title": "Game Designer",
-    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.",
+    "description": "I'm a Game Designer specialized in creating compelling gameplay experiences and level design. With over 3 years of experience working on indie game projects, I’ve led teams, designed core mechanics, and developed levels across various genres—from puzzle shooters to narrative-driven platformers. I’m skilled in C#, Unity, and collaborative development, and I’m always looking for new challenges to push player interaction and design innovation further.",
 
     "cards_info": {
       "card_1": {
@@ -27,11 +27,11 @@
       },
       "card_4": {
         "card_title": "Email",
-        "card_text": "??????????"
+        "card_text": "jta.ordo@gmail.com"
       },
       "card_5": {
         "card_title": "City",
-        "card_text": "??????????"
+        "card_text": "Guadalajara, Jal"
       },
       "card_6": {
         "card_title": "Degree",
