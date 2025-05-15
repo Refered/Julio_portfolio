@@ -168,18 +168,18 @@
     "cards": {
       "card_1": {
         "card_icon": "Home",
-        "card_text": "lorem ipsum dolor sit amet.",
-        "card_link": ""
+        "card_text": "jta.ordo@gmail.com",
+        "card_link": "jta.ordo@gmail.com"
       },
       "card_2": {
         "card_icon": "Home",
-        "card_text": "lorem ipsum dolor sit amet.",
-        "card_link": ""
+        "card_text": "Linkedin",
+        "card_link": "https://www.linkedin.com/in/julio-tonatiuh-aguilera-ordo%C3%B1ez-36a431289/"
       },
       "card_3": {
         "card_icon": "Home",
-        "card_text": "lorem ipsum dolor sit amet.",
-        "card_link": ""
+        "card_text": "WhatsApp",
+        "card_link": "https://api.whatsapp.com/send?phone=9932901320"
       }
     }
   }
