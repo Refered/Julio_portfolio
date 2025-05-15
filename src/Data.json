@@ -2,7 +2,7 @@
   "home_section": {
     "greet": "Hello, my name is",
     "name": "Julio Tonatiuh Aguilera Ordoñez",
-    "introduction": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.",
+    "introduction": "I'm a Game Designer specialized in creating compelling gameplay experiences and level design. With over 3 years of experience working on indie game projects, I’ve led teams, designed core mechanics, and developed levels across various genres—from puzzle shooters to narrative-driven platformers. I’m skilled in C#, Unity, and collaborative development, and I’m always looking for new challenges to push player interaction and design innovation further.",
     "cv_link": "https://drive.google.com/file/d/1STMox8I8xgGm4rL8s_fOnKlzkDitIIiO/view?usp=sharing",
     "photo": "pfp.jpg"
   },
@@ -10,7 +10,7 @@
   "about_section": {
     "presentation": "I'm Julio a ",
     "job_title": "Game Designer",
-    "description": "I'm a Game Designer specialized in creating compelling gameplay experiences and level design. With over 3 years of experience working on indie game projects, I’ve led teams, designed core mechanics, and developed levels across various genres—from puzzle shooters to narrative-driven platformers. I’m skilled in C#, Unity, and collaborative development, and I’m always looking for new challenges to push player interaction and design innovation further.",
+    "description": "I'm a Game Designer passionate about creating games that blend fun mechanics with meaningful stories. Since 2021, I’ve been making games to craft experiences that connect gameplay and narrative in engaging ways. I love designing mechanics that surprise players, building worlds they can get lost in, and learning from every game I play or read about. For me, game development is a space to explore ideas, tell stories, and keep growing with each new project.",
 
     "cards_info": {
       "card_1": {
@@ -35,7 +35,7 @@
       },
       "card_6": {
         "card_title": "Degree",
-        "card_text": "??????????"
+        "card_text": "Software and video game development(Currently Studying)"
       }
     },
 
@@ -87,42 +87,42 @@
       "card_1": {
         "card_icon": "Home",
         "card_title": "Unity/C#",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_text": "Experienced in game development, prototyping gameplay systems, and level design directly within the engine for 2D and 3D games."
       },
       "card_2": {
         "card_icon": "Home",
         "card_title": "Unreal Engine 5",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_text": "Experienced in game development, prototyping gameplay systems, and level design directly within the engine for 3D games and VR."
       },
       "card_3": {
         "card_icon": "Home",
-        "card_title": "3DS Max ",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_title": "3DS Max",
+        "card_text": "Experienced in creating 3D assets for prototypes, blockouts and simple props, ready for use in Unity and in UE5."
       },
       "card_4": {
         "card_icon": "Home",
         "card_title": "Blender",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_text": "Experienced in creating 3D assets for prototypes and blockouts, ready for use in Unity and in UE5."
       },
       "card_5": {
         "card_icon": "Home",
         "card_title": "Level Design",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_text": " I design and build levels that support gameplay mechanics and narrative structure. I’m experienced with tools like Unity, Unreal Engine 5, Blender, 3ds Max, and custom level editors. My workflow includes blockouts, prototyping, and layout iteration, along with clear documentation of level flow, player progression, and design intent for team collaboration."
       },
       "card_6": {
         "card_icon": "Home",
         "card_title": "Gameplay Mechanics",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_text": "I design, prototype, and iterate core gameplay systems that drive player engagement and fun. Experienced in implementing mechanics directly in Game Engines, as well as collaborating with programmers and designers to refine interactions and balance. I focus on creating intuitive, responsive, and meaningful gameplay loops."
       },
       "card_7": {
         "card_icon": "Home",
-        "card_title": "Interactive Narrative",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_title": "Interactive Narrative & Ludonarrative Design",
+        "card_text": " I focus on designing gameplay mechanics and level structures that seamlessly integrate with the story, creating immersive experiences where narrative and gameplay reinforce each other. Through thoughtful mechanic design and level progression, I aim to tell stories that players live through interaction, blending narrative flow with player agency."
       },
       "card_8": {
         "card_icon": "Home",
-        "card_title": "Interactive Narrative",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_title": "Documentation",
+        "card_text": "Experienced in creating clear, organized documentation for game design, level flow, mechanics, and development processes. I ensure that design intentions, workflows, and technical details are well-communicated to facilitate collaboration among team members and support efficient project development."
       }
     }
   },
