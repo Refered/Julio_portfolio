@@ -107,22 +107,22 @@
       "card_5": {
         "card_icon": "Home",
         "card_title": "Level Design",
-        "card_text": " I design and build levels that support gameplay mechanics and narrative structure. I’m experienced with tools like Unity, Unreal Engine 5, Blender, 3ds Max, and custom level editors. My workflow includes blockouts, prototyping, and layout iteration, along with clear documentation of level flow, player progression, and design intent for team collaboration."
+        "card_text": " I design and build levels that support gameplay mechanics and narrative structure."
       },
       "card_6": {
         "card_icon": "Home",
         "card_title": "Gameplay Mechanics",
-        "card_text": "I design, prototype, and iterate core gameplay systems that drive player engagement and fun. Experienced in implementing mechanics directly in Game Engines, as well as collaborating with programmers and designers to refine interactions and balance. I focus on creating intuitive, responsive, and meaningful gameplay loops."
+        "card_text": "Experienced in implementing mechanics directly in Game Engines, as well as collaborating with programmers and designers to refine interactions and balance."
       },
       "card_7": {
         "card_icon": "Home",
         "card_title": "Interactive Narrative & Ludonarrative Design",
-        "card_text": " I focus on designing gameplay mechanics and level structures that seamlessly integrate with the story, creating immersive experiences where narrative and gameplay reinforce each other. Through thoughtful mechanic design and level progression, I aim to tell stories that players live through interaction, blending narrative flow with player agency."
+        "card_text": " I focus on designing gameplay mechanics and level structures that seamlessly integrate with the story, creating immersive experiences where narrative and gameplay reinforce each other."
       },
       "card_8": {
         "card_icon": "Home",
         "card_title": "Documentation",
-        "card_text": "Experienced in creating clear, organized documentation for game design, level flow, mechanics, and development processes. I ensure that design intentions, workflows, and technical details are well-communicated to facilitate collaboration among team members and support efficient project development."
+        "card_text": "Experienced in creating clear, organized documentation for game design, level flow, mechanics, and development processes."
       }
     }
   },
