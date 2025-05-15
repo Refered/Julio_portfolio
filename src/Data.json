@@ -41,24 +41,9 @@
 
     "cards_education": {
       "card_1": {
-        "card_date": "Date",
-        "card_title": "Title",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      "card_2": {
-        "card_date": "Date",
-        "card_title": "Title",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      "card_3": {
-        "card_date": "Date",
-        "card_title": "Title",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      "card_4": {
-        "card_date": "Date",
-        "card_title": "Title",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_date": "June /2022 - June / 2026",
+        "card_title": "Amerike",
+        "card_text": "Degree on Interactive Software Development and Video Games"
       }
     },
 
@@ -101,37 +86,42 @@
     "cards": {
       "card_1": {
         "card_icon": "Home",
-        "card_title": "title",
+        "card_title": "Unity/C#",
         "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_2": {
         "card_icon": "Home",
-        "card_title": "title",
+        "card_title": "Unreal Engine 5",
         "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_3": {
         "card_icon": "Home",
-        "card_title": "title",
+        "card_title": "3DS Max ",
         "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_4": {
         "card_icon": "Home",
-        "card_title": "title",
+        "card_title": "Blender",
         "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_5": {
         "card_icon": "Home",
-        "card_title": "title",
+        "card_title": "Level Design",
         "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_6": {
         "card_icon": "Home",
-        "card_title": "title",
+        "card_title": "Gameplay Mechanics",
         "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_7": {
         "card_icon": "Home",
-        "card_title": "title",
+        "card_title": "Interactive Narrative",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_8": {
+        "card_icon": "Home",
+        "card_title": "Interactive Narrative",
         "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     }
