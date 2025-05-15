@@ -3,7 +3,7 @@
     "greet": "Hello, my name is",
     "name": "Julio Tonatiuh Aguilera Ordoñez",
     "introduction": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.",
-    "cv_link": "https://drive.google.com/file/d/1jn62u_omO7ZWiiq3TiixaWD_hzipZuRI/view?usp=sharing",
+    "cv_link": "https://drive.google.com/file/d/1STMox8I8xgGm4rL8s_fOnKlzkDitIIiO/view?usp=sharing",
     "photo": "pfp.jpg"
   },
 
@@ -15,15 +15,15 @@
     "cards_info": {
       "card_1": {
         "card_title": "Birthday",
-        "card_text": "??????????"
+        "card_text": "April 5"
       },
       "card_2": {
         "card_title": "Mascots",
-        "card_text": "??????????"
+        "card_text": "Renarin(cat)"
       },
       "card_3": {
         "card_title": "Favorite Video Game",
-        "card_text": "??????????"
+        "card_text": "The Binding of Isaac"
       },
       "card_4": {
         "card_title": "Email",
@@ -64,19 +64,35 @@
 
     "cards_experience": {
       "card_1": {
-        "card_date": "Date",
-        "card_title": "Title",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_date": "2023",
+        "card_title": "Two sides",
+        "card_text": "2D Side scroller, platformer and puzzle game. \nDesigned core mechanic, enemy types, and full narrative. Led the project and team."
       },
       "card_2": {
-        "card_date": "Date",
-        "card_title": "Title",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_date": "2024",
+        "card_title": "Save arboris",
+        "card_text": "2D Top down adventure game for the game jam plus. \nSupported level design for ability-based progression."
       },
       "card_3": {
-        "card_date": "Date",
-        "card_title": "Title",
-        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "card_date": "2024",
+        "card_title": "Rockin' Hell",
+        "card_text": "2D Side scroller rhythm-based Metroidvania.\nAssisted in mechanic and level design."
+      },
+      "card_4": {
+        "card_date": "2024",
+        "card_title": "Aimer",
+        "card_text": "First person puzzle shooter.\nDesigned main mechanic and all levels."
+      },
+      "card_5": {
+        "card_date": "2024-2025",
+        "card_title": "Scion of fire",
+        "card_text": "3D Action adventure game.\nFull level design from blocking to final layout; contributed to mechanics."
+      }
+      ,
+      "card_6": {
+        "card_date": "2024-2025",
+        "card_title": "Primal Race",
+        "card_text": "2.5D game jam plus latam winner\nCreated themed levels and gameplay systems under time constraints."
       }
     }
   },
