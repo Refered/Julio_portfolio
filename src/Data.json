@@ -1,85 +1,87 @@
 {
-  "portfolio_owner": "Julio's",
+  "portfolio_owner": {
+    "left": "BLANK",
+    "right": "Portfolio"
+  },
 
   "home_section": {
     "greet": "Hello, my name is",
-    "name": "Julio Tonatiuh Aguilera Ordoñez",
-    "introduction": "I'm a Game Designer specialized in creating compelling gameplay experiences and level design. With over 3 years of experience working on indie game projects, I’ve led teams, designed core mechanics, and developed levels across various genres—from puzzle shooters to narrative-driven platformers. I’m skilled in C#, Unity, and collaborative development, and I’m always looking for new challenges to push player interaction and design innovation further.",
-    "cv_link": "https://drive.google.com/file/d/1STMox8I8xgGm4rL8s_fOnKlzkDitIIiO/view?usp=sharing",
-    "photo": "pfp.jpg"
+    "name": "BLANK",
+    "introduction": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.",
+    "cv_link": "",
+    "photo": "test.png"
   },
 
   "about_section": {
-    "presentation": "I'm Julio a ",
-    "job_title": "Game Designer",
-    "description": "I'm a Game Designer passionate about creating games that blend fun mechanics with meaningful stories. Since 2021, I’ve been making games to craft experiences that connect gameplay and narrative in engaging ways. I love designing mechanics that surprise players, building worlds they can get lost in, and learning from every game I play or read about. For me, game development is a space to explore ideas, tell stories, and keep growing with each new project.",
+    "presentation": "I'm BLANK a",
+    "job_title": "Lorem ipsum dolor adipisicing elit.",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor sit amet, consectetur adipiscing elit.",
 
     "cards_info": {
       "card_1": {
         "card_title": "Birthday",
-        "card_text": "April 5"
+        "card_text": "??????????"
       },
       "card_2": {
         "card_title": "Mascots",
-        "card_text": "Renarin(cat)"
+        "card_text": "??????????"
       },
       "card_3": {
         "card_title": "Favorite Video Game",
-        "card_text": "The Binding of Isaac"
+        "card_text": "??????????"
       },
       "card_4": {
         "card_title": "Email",
-        "card_text": "jta.ordo@gmail.com"
+        "card_text": "??????????"
       },
       "card_5": {
         "card_title": "City",
-        "card_text": "Guadalajara, Jal"
+        "card_text": "??????????"
       },
       "card_6": {
         "card_title": "Degree",
-        "card_text": "Software and video game development(Currently Studying)"
+        "card_text": "??????????"
       }
     },
 
     "cards_education": {
       "card_1": {
-        "card_date": "June /2022 - June / 2026",
-        "card_title": "Amerike",
-        "card_text": "Degree on Interactive Software Development and Video Games"
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_2": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_3": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "card_4": {
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     },
 
     "cards_experience": {
       "card_1": {
-        "card_date": "2023",
-        "card_title": "Two sides",
-        "card_text": "2D Side scroller, platformer and puzzle game. \nDesigned core mechanic, enemy types, and full narrative. Led the project and team."
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_2": {
-        "card_date": "2024",
-        "card_title": "Save arboris",
-        "card_text": "2D Top down adventure game for the game jam plus. \nSupported level design for ability-based progression."
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_3": {
-        "card_date": "2024",
-        "card_title": "Rockin' Hell",
-        "card_text": "2D Side scroller rhythm-based Metroidvania.\nAssisted in mechanic and level design."
-      },
-      "card_4": {
-        "card_date": "2024",
-        "card_title": "Aimer",
-        "card_text": "First person puzzle shooter.\nDesigned main mechanic and all levels."
-      },
-      "card_5": {
-        "card_date": "2024-2025",
-        "card_title": "Scion of fire",
-        "card_text": "3D Action adventure game.\nFull level design from blocking to final layout; contributed to mechanics."
-      }
-      ,
-      "card_6": {
-        "card_date": "2024-2025",
-        "card_title": "Primal Race",
-        "card_text": "2.5D game jam plus latam winner\nCreated themed levels and gameplay systems under time constraints."
+        "card_date": "Date",
+        "card_title": "Title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     }
   },
@@ -87,44 +89,39 @@
   "skills_section": {
     "cards": {
       "card_1": {
-        "card_icon": "Unity",
-        "card_title": "Unity/C#",
-        "card_text": "Experienced in game development, prototyping gameplay systems, and level design directly within the engine for 2D and 3D games."
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_2": {
-        "card_icon": "Unreal",
-        "card_title": "Unreal Engine 5/Blueprints",
-        "card_text": "Experienced in game development, prototyping gameplay systems, and level design directly within the engine for 3D games and VR."
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_3": {
-        "card_icon": "Max",
-        "card_title": "3DS Max",
-        "card_text": "Experienced in creating 3D assets for prototypes, blockouts and simple props, ready for use in Unity and in UE5."
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_4": {
-        "card_icon": "Blender",
-        "card_title": "Blender",
-        "card_text": "Experienced in creating 3D assets for prototypes and blockouts, ready for use in Unity and in UE5."
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_5": {
-        "card_icon": "Map",
-        "card_title": "Level Design",
-        "card_text": " I design and build levels that support gameplay mechanics and narrative structure."
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_6": {
-        "card_icon": "Controller",
-        "card_title": "Gameplay Mechanics",
-        "card_text": "Experienced in implementing mechanics directly in Game Engines, as well as collaborating with programmers and designers to refine interactions and balance."
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       },
       "card_7": {
-        "card_icon": "MenuBook",
-        "card_title": "Ludonarrative Design",
-        "card_text": " I focus on designing gameplay mechanics and level structures that seamlessly integrate with the story, creating immersive experiences where narrative and gameplay reinforce each other."
-      },
-      "card_8": {
-        "card_icon": "LibraryBook",
-        "card_title": "Documentation",
-        "card_text": "Experienced in creating clear, organized documentation for game design, level flow, mechanics, and development processes."
+        "card_icon": "Home",
+        "card_title": "title",
+        "card_text": "lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     }
   },
@@ -132,40 +129,34 @@
   "portfolio_section": {
     "cards": {
       "card_1": {
-        "card_title": "Primal Race",
-        "card_image": "Primal.png",
-        "card_text": "Game Jam plus LATAM winner.",
-        "card_link": "https://juanf4r-dev.itch.io/gamejam-plus-2024"
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
       },
       "card_2": {
-        "card_title": "Paranormal Tape",
-        "card_image": "ParanormalTape.png",
-        "card_text": "VR horror game.",
-        "card_link": "https://arnulfodev.itch.io/paranormal-tape"
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
       },
       "card_3": {
-        "card_title": "Two sides",
-        "card_image": "Two.png",
-        "card_text": "2D Side scroller, platformer and puzzle game.",
-        "card_link": "https://kyjas.itch.io/two-sides"
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
       },
       "card_4": {
-        "card_title": "Aimer",
-        "card_image": "aimer.jpg",
-        "card_text": "First person puzzle shooter.",
-        "card_link": "https://kitaru1960.itch.io/aimer"
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
       },
       "card_5": {
-        "card_title": "Rockin' Hell",
-        "card_image": "Rockin.png",
-        "card_text": "2D Side scroller rhythm-based Metroidvania.",
-        "card_link": "https://marisky23.itch.io/rockin-hell"
-      },
-      "card_6": {
-        "card_title": "Scion of fire",
-        "card_image": "Scion.png",
-        "card_text": "2D Side scroller rhythm-based Metroidvania.",
-        "card_link": "https://missakhel.itch.io/scion-of-fire"
+        "card_title": "title",
+        "card_image": "test.png",
+        "card_text": "lorem ipsum dolor sit amet",
+        "card_link": ""
       }
     }
   },
@@ -175,19 +166,19 @@
     "segway": "Contact me",
     "cards": {
       "card_1": {
-        "card_icon": "Mail",
-        "card_text": "Email\n jta.ordo@gmail.com",
-        "card_link": "https://mail.google.com/mail/?view=cm&fs=1&to=jta.ordo@gmail.com"
+        "card_icon": "Home",
+        "card_text": "lorem ipsum dolor sit amet.",
+        "card_link": ""
       },
       "card_2": {
-        "card_icon": "Linkedin",
-        "card_text": "Linkedin",
-        "card_link": "https://www.linkedin.com/in/julio-tonatiuh-aguilera-ordo%C3%B1ez-36a431289/"
+        "card_icon": "Home",
+        "card_text": "lorem ipsum dolor sit amet.",
+        "card_link": ""
       },
       "card_3": {
-        "card_icon": "Whatsapp",
-        "card_text": "WhatsApp",
-        "card_link": "https://api.whatsapp.com/send?phone=9932901320"
+        "card_icon": "Home",
+        "card_text": "lorem ipsum dolor sit amet.",
+        "card_link": ""
       }
     }
   }

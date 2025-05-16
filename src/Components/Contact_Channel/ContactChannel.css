@@ -20,7 +20,7 @@
 
     border: solid 0.01rem var(--primary_color);
     border-radius: 2rem;
-    background-color: rgba(196, 118, 224, 0.2);
+    background-color: var(--primary_color_transparent);
 
     svg {
       width: 3.2rem;

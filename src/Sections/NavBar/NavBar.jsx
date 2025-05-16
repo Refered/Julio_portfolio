@@ -10,20 +10,23 @@ import { ReactComponent as PortfolioIcon } from "../../Icons/Briefcase.svg";
 import { ReactComponent as ContactIcon } from "../../Icons/ChatsCircle.svg";
 // import { ReactComponent as NavClose } from "../../Icons/NavClose.svg";
 
-const NavBar = ({ currentSection, setCurrentSection, navOpen }) => {
+const NavBar = ({ currentSection, setCurrentSection, navOpen, setNavOpen }) => {
   const navData = data.portfolio_owner;
   return (
     <nav className={navOpen ? "active" : "inactive"}>
       <div className="logo_container">
         <p>
-          <span>{navData}</span> Portfolio
+          <span>{navData.left}</span> {navData.right}
         </p>
       </div>
       <div className="nav_list">
         <a
           href="#top"
           className="list_element"
-          onClick={() => setCurrentSection(0)}
+          onClick={() => {
+            setCurrentSection(0);
+            setNavOpen(false);
+          }}
         >
           <HomeIcon
             viewBox="0 0 32 32"
@@ -34,7 +37,10 @@ const NavBar = ({ currentSection, setCurrentSection, navOpen }) => {
         <a
           href="#top"
           className="list_element"
-          onClick={() => setCurrentSection(1)}
+          onClick={() => {
+            setCurrentSection(1);
+            setNavOpen(false);
+          }}
         >
           <AboutIcon
             viewBox="0 0 32 32"
@@ -45,7 +51,10 @@ const NavBar = ({ currentSection, setCurrentSection, navOpen }) => {
         <a
           href="#top"
           className="list_element"
-          onClick={() => setCurrentSection(2)}
+          onClick={() => {
+            setCurrentSection(2);
+            setNavOpen(false);
+          }}
         >
           <SkillsIcon
             viewBox="0 0 32 32"
@@ -56,7 +65,10 @@ const NavBar = ({ currentSection, setCurrentSection, navOpen }) => {
         <a
           href="#top"
           className="list_element"
-          onClick={() => setCurrentSection(3)}
+          onClick={() => {
+            setCurrentSection(3);
+            setNavOpen(false);
+          }}
         >
           <PortfolioIcon
             viewBox="0 0 32 32"
@@ -67,7 +79,10 @@ const NavBar = ({ currentSection, setCurrentSection, navOpen }) => {
         <a
           href="#top"
           className="list_element"
-          onClick={() => setCurrentSection(4)}
+          onClick={() => {
+            setCurrentSection(4);
+            setNavOpen(false);
+          }}
         >
           <ContactIcon
             viewBox="0 0 32 32"
