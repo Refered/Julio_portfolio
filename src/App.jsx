@@ -25,12 +25,23 @@ function App() {
     { component: Contact, props: {} },
   ];
 
+  const root = document.documentElement;
+  const primaryColor = getComputedStyle(root)
+    .getPropertyValue("--primary_color")
+    .trim();
+
+  document.documentElement.style.setProperty(
+    "--primary_color_transparent",
+    `${primaryColor}33`
+  );
+
   return (
     <div className="app">
       <NavBar
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
         navOpen={navOpen}
+        setNavOpen={setNavOpen}
       />
       <div
         className="section_carrousel"

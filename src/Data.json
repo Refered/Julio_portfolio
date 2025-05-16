@@ -1,5 +1,8 @@
 {
-  "portfolio_owner": "BLANK",
+  "portfolio_owner": {
+    "left": "BLANK",
+    "right": "Portfolio"
+  },
 
   "home_section": {
     "greet": "Hello, my name is",
