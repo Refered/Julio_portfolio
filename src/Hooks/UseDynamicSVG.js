@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 
+const svgModules = import.meta.glob("../Icons/*.svg");
+
 export function useDynamicSVG({ svgPath }) {
   const [SVGComponent, setSVGComponent] = useState(() => null);
-
-  // Preload all SVGs at build time
-  const svgModules = import.meta.glob("../Icons/*.svg");
 
   useEffect(() => {
     const loadSVG = async () => {

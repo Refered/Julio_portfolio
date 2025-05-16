@@ -27,6 +27,7 @@
 
     .img_container {
       max-width: 100%;
+      aspect-ratio: 16/9;
 
       display: flex;
       justify-content: center;
@@ -44,13 +45,15 @@
 
     .text_container {
       flex-grow: 1;
+
+      margin: 2rem;
       display: flex;
       justify-content: center;
       align-items: center;
 
       p {
         font-size: 1.6rem;
-        text-align: center;
+        text-align: justify;
       }
     }
   }

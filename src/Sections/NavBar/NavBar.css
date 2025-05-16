@@ -36,6 +36,8 @@ nav {
 
     font-size: clamp(2rem, calc(2vw + 1rem), 2.5rem);
     font-weight: bold;
+
+    text-align: center;
   }
 
   .nav_list {
