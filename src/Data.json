@@ -87,42 +87,42 @@
   "skills_section": {
     "cards": {
       "card_1": {
-        "card_icon": "Home",
+        "card_icon": "Unity.svg",
         "card_title": "Unity/C#",
         "card_text": "Experienced in game development, prototyping gameplay systems, and level design directly within the engine for 2D and 3D games."
       },
       "card_2": {
-        "card_icon": "Home",
+        "card_icon": "Unreal.svg",
         "card_title": "Unreal Engine 5/Blueprints",
         "card_text": "Experienced in game development, prototyping gameplay systems, and level design directly within the engine for 3D games and VR."
       },
       "card_3": {
-        "card_icon": "Home",
+        "card_icon": "Max.svg",
         "card_title": "3DS Max",
         "card_text": "Experienced in creating 3D assets for prototypes, blockouts and simple props, ready for use in Unity and in UE5."
       },
       "card_4": {
-        "card_icon": "Home",
+        "card_icon": "Blender.svg",
         "card_title": "Blender",
         "card_text": "Experienced in creating 3D assets for prototypes and blockouts, ready for use in Unity and in UE5."
       },
       "card_5": {
-        "card_icon": "Home",
+        "card_icon": "Map.svg",
         "card_title": "Level Design",
         "card_text": " I design and build levels that support gameplay mechanics and narrative structure."
       },
       "card_6": {
-        "card_icon": "Home",
+        "card_icon": "Controller.svg",
         "card_title": "Gameplay Mechanics",
         "card_text": "Experienced in implementing mechanics directly in Game Engines, as well as collaborating with programmers and designers to refine interactions and balance."
       },
       "card_7": {
-        "card_icon": "Home",
+        "card_icon": "MenuBook.svg",
         "card_title": "Ludonarrative Design",
         "card_text": " I focus on designing gameplay mechanics and level structures that seamlessly integrate with the story, creating immersive experiences where narrative and gameplay reinforce each other."
       },
       "card_8": {
-        "card_icon": "Home",
+        "card_icon": "LibraryBook.svg",
         "card_title": "Documentation",
         "card_text": "Experienced in creating clear, organized documentation for game design, level flow, mechanics, and development processes."
       }
@@ -175,17 +175,17 @@
     "segway": "Contact me",
     "cards": {
       "card_1": {
-        "card_icon": "Home",
-        "card_text": "jta.ordo@gmail.com",
+        "card_icon": "Mail.svg",
+        "card_text": "Email",
         "card_link": "https://mail.google.com/mail/?view=cm&fs=1&to=jta.ordo@gmail.com"
       },
       "card_2": {
-        "card_icon": "Home",
+        "card_icon": "Linkedin.svg",
         "card_text": "Linkedin",
         "card_link": "https://www.linkedin.com/in/julio-tonatiuh-aguilera-ordo%C3%B1ez-36a431289/"
       },
       "card_3": {
-        "card_icon": "Home",
+        "card_icon": "Whatsapp.svg",
         "card_text": "WhatsApp",
         "card_link": "https://api.whatsapp.com/send?phone=9932901320"
       }
