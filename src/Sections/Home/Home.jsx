@@ -22,7 +22,7 @@ const Home = ({ sectionState }) => {
                 href={homeData.cv_link}
                 target="blank"
               >
-                <Button text="See my CV" />
+                <Button text="CV" />
               </a>
             )}
             {homeData.demo_reel_link && (
@@ -31,7 +31,7 @@ const Home = ({ sectionState }) => {
                 href={homeData.demo_reel_link}
                 target="blank"
               >
-                <Button text="See my Demo reel" />
+                <Button text="Demo reel" />
               </a>
             )}
           </div>
