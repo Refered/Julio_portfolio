@@ -15,13 +15,26 @@ const Home = ({ sectionState }) => {
             {homeData.greet} <span>{homeData.name}</span>
           </h1>
           <p>{homeData.introduction}</p>
-          <a
-            className="button_container"
-            href={homeData.cv_link}
-            target="blank"
-          >
-            <Button text="See my CV" />
-          </a>
+          <div className="buttons_container">
+            {homeData.cv_link && (
+              <a
+                className="button_container"
+                href={homeData.cv_link}
+                target="blank"
+              >
+                <Button text="See my CV" />
+              </a>
+            )}
+            {homeData.demo_reel_link && (
+              <a
+                className="button_container"
+                href={homeData.demo_reel_link}
+                target="blank"
+              >
+                <Button text="See my Demo reel" />
+              </a>
+            )}
+          </div>
         </div>
         <div className="side_b">
           <div className="img_container">
